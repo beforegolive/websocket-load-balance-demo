@@ -7,9 +7,9 @@
     "start": "nodemon --exec npm run server",
     "start:dev": "webpack-dev-server --port=8090",
     "server": "npm-run-all --parallel server:*",
-    "server:demo1": "PORT=8001 node server.js",
-    "server:demo2": "PORT=8002 node server.js",
-    "server:demo3": "PORT=8003 node server.js",
+    "server:demo1": "PORT=60001 node server.js",
+    "server:demo2": "PORT=60002 node server.js",
+    "server:demo3": "PORT=60003 node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack"
   },
